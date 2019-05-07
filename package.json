@@ -1,0 +1,22 @@
+{
+  "name": "15.1",
+  "version": "1.0.0",
+  "description": "Kodilla tasks 15.4 - ES6 excercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arti-zachara/15.1.git"
+  },
+  "keywords": [
+    "ES6"
+  ],
+  "author": "arti Zachara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arti-zachara/15.1/issues"
+  },
+  "homepage": "https://github.com/arti-zachara/15.1#readme"
+}
