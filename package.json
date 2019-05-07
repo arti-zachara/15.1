@@ -4,7 +4,10 @@
   "description": "Kodilla tasks 15.4 - ES6 excercises",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm-run-all test:js test:index",
+    "test:index": "html-validator --file=index.html --verbose",
+    "test:js": "jshint",
+    "start": "babel script.js --watch --out-file script-compiled.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/arti-zachara/15.1/issues"
   },
-  "homepage": "https://github.com/arti-zachara/15.1#readme"
+  "homepage": "https://github.com/arti-zachara/15.1#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
 }
